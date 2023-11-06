@@ -23,13 +23,13 @@ As an example, suppose Alice mints tokens #42, #43, and #44, and Bob mints token
 - #42
   - Owner: Alice
 - #43
-  - Owner: <not set>
+  - Owner: _not set_
 - #44
-  - Owner: <not set>
+  - Owner: _not set_
 - #45
   - Owner: Bob
 - #46
-  - Owner: <not set>
+  - Owner: _not set_
 
 The key here is that if one wanted to see who owned #44, one doesn't need to have Alice set explicitly as the explicit owner of #44 to do so. One could just change the ownerOf function to do the following:
 
